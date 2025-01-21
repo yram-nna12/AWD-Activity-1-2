@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  body {
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 100vh; 
+    margin: 0; 
+    width: 100vw; 
+    overflow-x: hidden;
+  }
+
+  .hero-section{
+    background-image: url("/assets/img/hero-section.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.navigationBar {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  padding: 0.2rem 9vw;
+  align-items: center;
+  background: linear-gradient(30deg, #471a76, #dbeaff 900%);
+  position: fixed;
+  top: 0;
+  z-index: 10; /* Ensure navigation bar stays above all content */
+  height: 80px; /* Set a fixed height for the navigation bar */
+}
+  .navigationBar .navigation {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navigationBar .navigation-content {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    display: inline-block;
+    transition: all 0.5s;
+}
+
+.navigationBar .button {
+    border: 1px rgb(0, 0, 0) solid;
+    font-size: 0.9rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(45, 44, 44);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.navigationBar .navigation-content:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #703ecd, 0 0 20px #703ecd, 0 0 30px #703ecd, 0 0 40px #703ecd;
+}
+
+.navigationBar .button:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border: none;
+}
+
+.navigationBar .logo {
+    display: flex;
+    align-items: center;
+}
+  
+.navigationBar .logo-img {
+    width: 95px;
+    height: auto;
+  }
+
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s ease;
+    margin-bottom: -1rem;
+    margin-top: -6.5%;
+  }
+  
+  .image:hover {
+    transform: scale(1.2);
+    transition: 1s ease;
+  }
+  
+  .image img {
+    max-width: 650px;
+    width: 100%;
+  }
+
+.hero1 {
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    padding-top: 80px; 
+    box-sizing: border-box;
+}
+
+.hero1 .tagline {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.6rem;
+  color: rgb(27, 14, 30); 
+  margin-bottom: 1px;
+  margin-top: 1rem;
+  position: relative; 
+  letter-spacing: 0rem;
+  background: linear-gradient(to left, #8ca2ff, #dbeaff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+.hero1 .subtext {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: rgb(255, 255, 255); 
+  position: relative; 
+  letter-spacing: 0rem;
+  margin-bottom: 25px;
+
+}
+.hero1 .hero-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 20px;
+  margin-bottom: 3rem;
+}
+
+.hero-button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #401758;
+  background-color: #dbeaff;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.4s, color 0.4s;
+}
+
+.hero-button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #401758;
+}
+
+
+
+
+.About-Section {
+  background-color: #471a76;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+  width: 100vw;
+  align-items: center;
+}
+.about-content {
+  max-width: 700px; /* Ensures the content is contained within a fixed width */
+  margin: 0 auto; /* Centers the content horizontally */
+}
+
+.about-content h1,
+.about-content h2 {
+  text-align: center; /* Explicitly centers the headings */
+}
+
+.about-content h1 {
+  font-size: 3.5rem;
+  color: #8ca2ff; 
+  font-family: 'Roboto', open sans-serif;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.about-content h2 {
+  font-size: 3rem;
+  color: #8ca2ff; 
+  margin-bottom: 15px;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: white; 
+  margin-bottom: 20px; /* Adds spacing between paragraphs */
+  text-align: center; /* Ensures all paragraph text is centered */
+}
