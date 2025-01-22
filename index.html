@@ -13,11 +13,12 @@
     <header class="navigationBar">
         <div class="logo">
           <img src="./assets/img/logotech.png" alt="" class="logo-img" />
-        </div>
+        </div>          
         <nav class="navigation">
-          <a href="" class="navigation-content">About Us</a>
-          <a href="" class="navigation-content">Services</a>
-          <a href="" class="navigation-content">Contact Us</a>
+          <a href="" class="navigation-content-active">Home</a>
+          <a href="./pages/AboutPage/index.html" class="navigation-content">About Us</a>
+          <a href="./pages/ServicesPage/index.html" class="navigation-content">Services</a>
+          <a href="./pages/ContactPage/index.html" class="navigation-content">Contact Us</a>
         </nav>
       </header>
       
@@ -27,28 +28,73 @@
           </div>
          <h1 class="tagline">”Innovating Today, Shaping Tomorrow.”</h1>
          <p class="subtext">Simplifying Tech Adoption while emphasizing sustainability and accessibility</p>
-         <a href="#" class="hero-button">Learn More</a>
+         <a href="./pages/ServicesPage/index.html" class="hero-button">Learn More</a>
       </div>
     </div>
-
-
-
 
     <div class="About-Section">
-      <div class="about-content">
-        <h1>Who We Are</h1>
-        <p>
-          John Marcus founded Techverse Innovations to make technology simple and accessible for businesses. By leveraging AI, Blockchain, and IoT, the company empowers small-to-medium enterprises to adopt innovative solutions with ease.
-        </p>
-        <h2>Our Mission</h2>
-        <p>"Empowering businesses with innovative and sustainable technology solutions."</p>
+      <h1 class="abtTitle">Who We Are</h1>
+      <p class="subt">John Marcus established Techverse Innovations with the goal of revolutionizing the way companies use technology. As an innovative organization, we are experts at utilizing blockchain, artificial intelligence (AI), and the internet of things (IoT) to create solutions that are both formidable and affordable. Our goal is to enable small-to-medium businesses (SMEs) to easily adopt cutting-edge technology so they may improve efficiency, simplify operations, and prosper in a cutthroat market. Our mission at Techverse Innovations is to make cutting-edge technology accessible, useful, and revolutionary.</p>
+      <div class="mission">
+        <p class="subT">"Empowering businesses with innovative and sustainable technology solutions."</p>
+      </div>
+      <a href="./pages/AboutPage/index.html" class="AboutSec-button">Read More</a>
+     </div>
+
+<!----Service Section--->
+<section class="services-container">
+  <h1 class="static-title">What We Offer</h1>
+  <div class="slides">
+    <div class="slide active">
+      <div class="slide-content">
+        <img src="/assets/img/AI.png" alt="AI Solutions">
+        <div class="text-content">
+          <h2>AI Solutions</h2>
+          <p>Automate and optimize workflows using AI-powered tools. Streamline business processes and improve efficiency by leveraging artificial intelligence. AI tools can automate repetitive tasks, optimize resource allocation, and provide actionable insights, enabling faster and more accurate decision-making.</p>
+        </div>
       </div>
     </div>
+    <div class="slide">
+      <div class="slide-content">
+        <img src="/assets/img/Blockchain.png" alt="Blockchain Consulting">
+        <div class="text-content">
+          <h2>Blockchain Consulting</h2>
+          <p>Secure and enhance your transactions with blockchain technology. Enhance transaction security and transparency with blockchain technology. Consulting services focus on implementing decentralized systems that reduce fraud, improve traceability, and ensure data integrity, making them ideal for finance, supply chain, and digital identity solutions.</p>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-content">
+        <img src="/assets/img/IoT.png" alt="IoT Solutions">
+        <div class="text-content">
+          <h2>IoT Solutions</h2>
+          <p>Transform your operations with smart IoT devices. Revolutionize operations with smart Internet of Things (IoT) devices. IoT solutions enable real-time monitoring, predictive maintenance, and automation, helping businesses achieve higher productivity and better resource management across various industries.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="controls">
+    <button class="prev" aria-label="Previous Slide"><i class="fas fa-chevron-left"></i></button>
+    <button class="next" aria-label="Next Slide"><i class="fas fa-chevron-right"></i></button>
+  </div>
+</section>
+
+<div class="Calcu-Section">
+  <h1 class="calTi">See What <br> it’ll Take</h1>
+  <a href="" class="Calcu-button">Get Started</a>
+ </div>
 
 
+<footer class="footer">
+  <p class="footer-tagline">Innovating Today, Shaping Tomorrow.</p>
+  <img src="./assets/img/logotech.png" alt="TechVerse Logo" class="footer-logo">
+  <p class="footer-credits">© 2025 TechVerse Innovations</p>
+</footer>
 
-
+<script src="./assets/js/script.js"></script>
 
 </body>
+
+
 
 
