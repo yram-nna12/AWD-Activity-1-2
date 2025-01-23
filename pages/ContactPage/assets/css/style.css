@@ -197,8 +197,9 @@
     text-align: center;
     width: 100%;
     max-width: 350px;
-    padding: 20px;
+    padding: 35px;
 }
+
 
 .contact-details h2 {
     font-size: 1.8rem;
@@ -216,6 +217,16 @@
     align-items: center;
     gap: 10px;
     margin-bottom: 10px;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.detail-item span{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
     font-size: 1rem;
     color: #ffffff;
 }
@@ -241,8 +252,30 @@
     text-decoration: underline;
 }
 
-.social-media .h3{
-    color: white;
+.social-media h3{
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background: linear-gradient(to left, #8ca2ff, #dbeaff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.social-icons {
+    color: #9fb1ff;
+
+
+}
+
+.social-icons i{
+    color: #ffffff;
+    margin: 6px;
+    font-size: 3rem;
+}
+
+.social-icons i:hover{
+    color: #aba3ff;
 }
 
 .footer {
