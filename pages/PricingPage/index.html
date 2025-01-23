@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PricingPage</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="hero-section">
+    <header class="navigationBar">
+        <div class="logo">
+          <img src="/assets/img/logotech.png" alt="" class="logo-img" />
+        </div>
+        <nav class="navigation">
+          <a href="/index.html" class="navigation-content">Home</a>
+          <a href="/pages/AboutPage/index.html" class="navigation-content">About Us</a>
+          <a href="/pages/ServicesPage/index.html" class="navigation-content">Services</a>
+          <a href="/pages/ContactPage/index.html" class="navigation-content">Contact Us</a>
+        </nav>
+      </header>
+
+      <div class="hero1">
+       <h1 class="tagline">Get Your Custom Tech Solution Quote!</h1>
+       <p class="subtext">Easily estimate the cost of our services with our quick and transparent pricing estimator. Select the options that suit your business needs.</p>
+    </div>
+  </div>
+
+  <section class="container2" id="products">
+    <div class="roww">
+        <div class="column">
+            <div class="card">
+                <div class="card-image">
+                    <div class="card-content">
+                        <h3>AI Solutions</h3>
+                        <p>AI tools can automate repetitive tasks, optimize resource allocation, and provide actionable insights, enabling faster and more accurate decision-making. It can also enhance personalization, improving customer experiences.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <div class="card-image">
+                    <div class="card-content">
+                        <h3>Blockchain Consulting</h3>
+                        <p>focus on implementing decentralized systems that reduce fraud, improve traceability, and ensure data integrity, making them ideal for finance, supply chain, and digital identity solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                    <div class="card-content">
+                        <h3>IoT Solutions</h3>
+                        <p>IoT solutions enable real-time monitoring, predictive maintenance, and automation, helping businesses achieve higher productivity and better resource management across various industries.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="mainprice-section">
+<section id="pricing-section">
+    <div class="pricing-container">
+      <!-- Services Section -->
+      <div class="services-section">
+        <h4>Select Services</h4>
+  
+        <!-- Category: AI Solutions -->
+        <div class="category">
+          <h5>AI Solutions</h5>
+          <div class="service-item">
+            <span>Service 1 ($100)</span>
+            <button class="minus-btn" data-category="ai" data-service="1">-</button>
+            <span class="quantity" id="ai-service1-qty">0</span>
+            <button class="plus-btn" data-category="ai" data-service="1">+</button>
+          </div>
+          <div class="service-item">
+            <span>Service 2 ($200)</span>
+            <button class="minus-btn" data-category="ai" data-service="2">-</button>
+            <span class="quantity" id="ai-service2-qty">0</span>
+            <button class="plus-btn" data-category="ai" data-service="2">+</button>
+          </div>
+          <div class="service-item">
+            <span>Service 3 ($300)</span>
+            <button class="minus-btn" data-category="ai" data-service="3">-</button>
+            <span class="quantity" id="ai-service3-qty">0</span>
+            <button class="plus-btn" data-category="ai" data-service="3">+</button>
+          </div>
+        </div>
+  
+        <!-- Category: Blockchain Solutions -->
+        <div class="category">
+          <h5>Blockchain Solutions</h5>
+          <div class="service-item">
+            <span>Service 1 ($150)</span>
+            <button class="minus-btn" data-category="blockchain" data-service="1">-</button>
+            <span class="quantity" id="blockchain-service1-qty">0</span>
+            <button class="plus-btn" data-category="blockchain" data-service="1">+</button>
+          </div>
+          <div class="service-item">
+            <span>Service 2 ($250)</span>
+            <button class="minus-btn" data-category="blockchain" data-service="2">-</button>
+            <span class="quantity" id="blockchain-service2-qty">0</span>
+            <button class="plus-btn" data-category="blockchain" data-service="2">+</button>
+          </div>
+          <div class="service-item">
+            <span>Service 3 ($350)</span>
+            <button class="minus-btn" data-category="blockchain" data-service="3">-</button>
+            <span class="quantity" id="blockchain-service3-qty">0</span>
+            <button class="plus-btn" data-category="blockchain" data-service="3">+</button>
+          </div>
+        </div>
+  
+        <!-- Category: IoT Solutions -->
+        <div class="category">
+          <h5>IoT Solutions</h5>
+          <div class="service-item">
+            <span>Service 1 ($120)</span>
+            <button class="minus-btn" data-category="iot" data-service="1">-</button>
+            <span class="quantity" id="iot-service1-qty">0</span>
+            <button class="plus-btn" data-category="iot" data-service="1">+</button>
+          </div>
+          <div class="service-item">
+            <span>Service 2 ($220)</span>
+            <button class="minus-btn" data-category="iot" data-service="2">-</button>
+            <span class="quantity" id="iot-service2-qty">0</span>
+            <button class="plus-btn" data-category="iot" data-service="2">+</button>
+          </div>
+          <div class="service-item">
+            <span>Service 3 ($320)</span>
+            <button class="minus-btn" data-category="iot" data-service="3">-</button>
+            <span class="quantity" id="iot-service3-qty">0</span>
+            <button class="plus-btn" data-category="iot" data-service="3">+</button>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Computation Section -->
+      <div class="computation-section">
+        <h3>Total Cost</h3>
+        <div id="total-cost" class="total">$0</div>
+        <div id="details">
+          <h5>AI Solutions</h5>
+          <ul id="ai-details">
+            <li>Service 1: <span id="ai-service1-count">0</span> x $100 = $<span id="ai-service1-total">0</span></li>
+            <li>Service 2: <span id="ai-service2-count">0</span> x $200 = $<span id="ai-service2-total">0</span></li>
+            <li>Service 3: <span id="ai-service3-count">0</span> x $300 = $<span id="ai-service3-total">0</span></li>
+          </ul>
+          <h5>Blockchain Solutions</h5>
+          <ul id="blockchain-details">
+            <li>Service 1: <span id="blockchain-service1-count">0</span> x $150 = $<span id="blockchain-service1-total">0</span></li>
+            <li>Service 2: <span id="blockchain-service2-count">0</span> x $250 = $<span id="blockchain-service2-total">0</span></li>
+            <li>Service 3: <span id="blockchain-service3-count">0</span> x $350 = $<span id="blockchain-service3-total">0</span></li>
+          </ul>
+          <h5>IoT Solutions</h5>
+          <ul id="iot-details">
+            <li>Service 1: <span id="iot-service1-count">0</span> x $120 = $<span id="iot-service1-total">0</span></li>
+            <li>Service 2: <span id="iot-service2-count">0</span> x $220 = $<span id="iot-service2-total">0</span></li>
+            <li>Service 3: <span id="iot-service3-count">0</span> x $320 = $<span id="iot-service3-total">0</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer class="footer">
+    <p class="footer-tagline">Innovating Today, Shaping Tomorrow.</p>
+    <img src="/assets/img/logotech.png" alt="TechVerse Logo" class="footer-logo">
+    <p class="footer-credits">© 2025 TechVerse Innovations</p>
+</footer>
+
+  <script src="./assets/js/script.js"></script>
+
+</body>
+</html>

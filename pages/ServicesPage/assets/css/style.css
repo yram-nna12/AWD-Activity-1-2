@@ -20,6 +20,7 @@
     margin: 0; 
     width: 100vw; 
     overflow-x: hidden;
+    background: rgb(22, 8, 51);
   }
 
 .navigationBar {
@@ -102,6 +103,122 @@
       flex: 1; 
     }
     
+.productContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
+
+.productContainer .box{
+  position: relative;
+  width: 320px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 30px;
+  transition: 0.5s;
+}
+
+.productContainer .box::before{
+  content: " ";
+  position: absolute;
+  text-decoration: none;
+  top: 30px;
+  left: 50px;
+  width: 50%;
+  height: 100%;
+  background: #ffffff;
+  border-radius: 8px;
+  transform: skewX(15deg);
+  transition: 0.5s;
+}
+
+.productContainer .box::after{
+  content: " ";
+  position: absolute;
+  text-decoration: none;
+  top: 30px;
+  left: 50px;
+  width: 50%;
+  height: 100%;
+  background: #ffffff;
+  border-radius: 8px;
+  transform: skewX(15deg);
+  transition: 0.5s;
+  filter: blur(30px);
+  transition: 0.5s;
+}
+
+.productContainer .box:hover:before,
+.productContainer .box:hover:after {
+  transform: skewX(0deg);
+  left: 20px;
+  width: calc(100% - 90px);
+}
+
+.productContainer .box:nth-child(1):before,
+.productContainer .box:nth-child(1):after {
+  background: linear-gradient(315deg,#ffffff, #a9eeff, #9fb1ff, #401758);
+}
+
+.productContainer .box:nth-child(2):before,
+.productContainer .box:nth-child(2):after {
+  background: linear-gradient(315deg,#ffffff, #a9eeff, #9fb1ff, #401758);
+}
+
+.productContainer .box:nth-child(3):before,
+.productContainer .box:nth-child(3):after {
+  background: linear-gradient(315deg,#ffffff, #a9eeff, #9fb1ff, #401758);
+}
+
+.productContainer .box:nth-child(4):before,
+.productContainer .box:nth-child(4):after {
+  background: linear-gradient(315deg,#ffffff, #a9eeff,  #9fb1ff, #401758);
+}
+
+productContainer .box:nth-child(5):before,
+.productContainer .box:nth-child(5):after {
+  background: linear-gradient(315deg,#ffffff, #a9eeff, #9fb1ff, #401758);
+}
+
+productContainer .box:nth-child(6):before,
+.productContainer .box:nth-child(6):after {
+  background: linear-gradient(315deg,#ffffff, #a9eeff, #9fb1ff, #401758);
+}
+
+.productContent {
+  z-index: 1;
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .footer {
       display: flex;
       justify-content: space-between;

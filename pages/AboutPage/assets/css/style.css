@@ -16,11 +16,20 @@
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center; 
-    height: 100vh; 
+    height: 200vh; 
     margin: 0; 
     width: 100vw; 
     overflow-x: hidden;
   }
+
+
+  .hero-section{
+    background-image: url("../img/aboutUs-section.png");
+    margin-top: 5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 .navigationBar {
     display: flex;
@@ -96,4 +105,245 @@
   .navigationBar .logo-img {
       width: 80px;
       height: auto;
+    }
+
+
+    .Abtrow {
+      width: 100%;
+      max-width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 50px;
+      overflow-x: hidden;
+      padding: 10%;
+    }
+
+    .Abtrow .imgAbt {
+      overflow: hidden;
+    }
+
+    .Abtrow .imgAbt img{
+      width: 100%;
+      height: 45%;
+      margin-top: 50px;
+      object-fit: cover;
+      transition: 0.3s;
+    
+    }
+
+    .Abtrow .imgAbt img:hover img{
+      transform: scale(1.25);
+    }
+
+    .Abtrow .contentWrapper{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-left: 40px;
+      padding-top: 70px;
+      margin-top: -5.5rem;
+    }
+
+    .Abtrow .contentWrapper span.textWrapper{
+      display: block;
+      font-size: 20px;
+      text-transform: capitalize;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 20px
+    }
+
+    .Abtrow .contentWrapper span.textWrapper span{
+      display: inline-block;
+      background: #9fb1ff;
+      width: 70px;
+      height: 5px;
+    }
+
+    .Abtrow .contentWrapper h2{
+      font-size: 80px;
+      font-weight: 700;
+      color: rgb(27, 14, 30); ;
+      background: linear-gradient(to left, #8ca2ff, #dbeaff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      padding-bottom: 20px;
+    }
+
+    .Abtrow .contentWrapper p{
+      font-size: 16px;
+      color: white;
+      line-height: 25px;
+      padding-bottom: 25px
+    }
+
+/* VISION AND MISSION */
+.container {
+  background-color: #12002d;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: stretch;
+  gap: 150px;
+  padding: 30px;
+  justify-content: center;
+}
+
+.section {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  width: 300px;
+}
+
+.section h2 {
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+.section p {
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  color: white; 
+  line-height: 1.6;
+}
+
+.vision h2 {
+  color: #9fb1ff;
+}
+
+.mission h2 {
+  color: #9fb1ff;
+}
+
+.divider {
+  width: 2px;
+  background-color: #9fb1ff;
+  height: 160px;
+}
+
+  
+/*How We Work Section*/
+
+.How-we-work h2{
+  font-size: 80px;
+  font-weight: 700;
+  color: rgb(27, 14, 30); ;
+  background: linear-gradient(to left, #8ca2ff, #dbeaff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 20px;
+  padding-top: 11rem;
+}
+
+.How-we-work p{
+  font-size: 16px;
+  color: white;
+  line-height: 25px;
+  padding-bottom: 25px
+}
+
+
+.container3 {
+  background-image: url("../img/hwwork-section.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 40px 40px;
+}
+
+.container3 .row {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: -20px;
+}
+
+.container3 .column {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.container3 .card {
+  padding: 150px 20px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 2.5em rgba(0, 0, 0, 0.15);
+  border-radius: 0.5em;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.container3 .card1 {
+  background: linear-gradient(390deg, #a9eeff, #9fb1ff, #401758);
+}
+
+.container3 .card2 {
+  background: linear-gradient(390deg, #a9eeff, #9fb1ff, #401758)
+}
+
+.container3 .card3 {
+  background: linear-gradient(390deg, #a9eeff, #9fb1ff, #401758)
+}
+
+.container3 .card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  background: linear-gradient(to left, #8ca2ff, #dbeaff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container3 .card p {
+  line-height: 1.6em;
+  color: #ffffff;
+}
+
+.container3 .card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width: 768px) {
+  .container3 .row {
+      display: flex;
+      justify-content: space-around;
+  }
+}
+ .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%; 
+      padding: 0.5rem 9vw;
+      background: linear-gradient(180deg, #12022d, #dbeaff 1000%);
+      box-shadow: 0 -4px 6px #140230; 
+      height: 80px;
+    }
+    
+    .footer-logo {
+      height: 35px; 
+      object-fit: contain; 
+    }
+    
+    .footer-tagline,
+    .footer-credits {
+      margin: 0;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      font-size: 0.7rem;
+    }
+    
+    .footer-tagline {
+      background: linear-gradient(to left, #8ca2ff, #dbeaff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 500;
+    }
+    
+    .footer-credits {
+      font-size: 0.7rem;
+      color: #9fb1ff;
     }
