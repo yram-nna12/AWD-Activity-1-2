@@ -23,7 +23,7 @@
   }
 
   .hero-section{
-    background-image: url("/assets/img/hero-section.png");
+    background-image: url("../img/hero-section.png");
     margin-top: 5rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -181,7 +181,7 @@
 }
 
 .About-Section {
-  background-image: url("/assets/img/about-section.png");
+  background-image: url("../img/about-section.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -259,7 +259,7 @@
 
 
 .services-container {
-  background-image: url("/assets/img/Service-section.gif");
+  background-image: url("../img/Service-section.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -372,23 +372,10 @@
   }
 }
 
-.Calcu-Section {
-  margin-top: -4rem;
-  background-image: url("/assets/img/Calculator.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  align-items: flex-start; /* Aligns items to the left */
-  position: relative;
-  flex-direction: column; /* Stack content vertically */
-  padding-left: 2rem; /* Add left padding if needed to push the content away from the edge */
-}
 
 .Calcu-Section {
-  background-image: url("/assets/img/Calculator.png");
+  margin-top: -4rem;
+  background-image: url("../img/Calculator.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
