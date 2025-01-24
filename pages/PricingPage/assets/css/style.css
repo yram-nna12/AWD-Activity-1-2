@@ -174,41 +174,40 @@
         justify-content: space-between;
         align-items: center;
         min-height: 100vh;
-        padding: 250px;
-        display: flex;
+        padding: 100px;
     }
     
     .pricing-container {
+      
         display: flex;
-        gap: 10px;
+        gap: 70px;
         justify-content: center;
         align-items: flex-start;
         flex-wrap: wrap;
         margin-left: -2rem;
-        max-width: 1100px; /* Container width */
-        padding: 10px;
+        max-width: 1800px; /* Container width */
+        padding: 100px;
+        margin-top: 15rem;
         box-sizing: border-box;
     }
     
     .services-section,
     .computation-section {
       
-        padding: 20px 20px;
-        background: #fff;
-        border: 1px solid #ddd;
+        padding: 20px 18px;
+        background: linear-gradient(390deg, #a9eeff, #9fb1ff, #401758);
         border-radius: 8px;
         width: 100%;
-        
         box-sizing: border-box;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for emphasis */
     }
     
     .services-section {
-        max-width: 650px; /* Width for services section */
+        max-width: 600px; /* Width for services section */
     }
     
     .computation-section {
-        max-width: 550px; /* Width for computation section */
+        max-width: 450px; /* Width for computation section */
         
     }
 
@@ -226,9 +225,10 @@
     .services-section h4,
     .computation-section h3 {
         font-family: 'Poppins', sans-serif;
-        font-size: 1.8rem;
-        margin-bottom: 20px;
-        color: #333;
+        font-size: 2.2rem;
+        margin-bottom: 10px;
+        letter-spacing: -1.2px;
+        color: #100516;
     }
     
     .category h5 {
@@ -249,22 +249,22 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-bottom: 10px;
+        margin-bottom: 0.5px;
     }
     
     .service-item .submain {
         flex: 1;
-        font-size: 1.2rem;
-        color: #333;
+        font-size: 1rem;
+        color: #2b2134;
         text-align: left;
-        max-width: 1000px;
+        max-width: 560px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
     }
     
     button {
-        background: #4caf50;
+        background: #401758;;
         color: white;
         border: none;
         border-radius: 5px;
@@ -280,7 +280,7 @@
     }
     
     button:hover {
-        background: #45a049;
+        background: #59cd5f;
     }
     
     .service-item .quantity {
@@ -293,9 +293,9 @@
     }
     
     .total {
-        font-size: 9.0rem;
+        font-size: 5rem;
         font-weight: bold;
-        color: #4caf50;
+        color: #000000;
         margin-bottom: 20px;
         text-align: center;
     }
@@ -305,11 +305,16 @@
         padding: 0;
     }
     
-    ul li {
-        margin-bottom: 10px;
+    .computation-section li {
+        margin-bottom: 2px;
         font-size: 1rem;
     }
-    
+
+    .computation-section  h5 {
+      margin-top: 1rem;
+      font-size: 1.5rem;
+    }
+
     @media (max-width: 1200px) {
         .pricing-container {
             gap: 15px;
@@ -319,7 +324,7 @@
         .services-section,
         .computation-section {
             max-width: 100%; /* Full width on smaller screens */
-            padding: 30px;
+            padding: 50px;
         }
     }
     
