@@ -171,91 +171,99 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         min-height: 100vh;
-        padding: 100px;
-      }
-      
-      .pricing-section {
+        padding: 250px;
         display: flex;
-        width: 100%;
-      }
-      
-      .pricing-container {
+    }
+    
+    .pricing-container {
         display: flex;
-        gap: 20px; /* Smaller gap between columns for balance */
+        gap: 10px;
         justify-content: center;
         align-items: flex-start;
-        flex-wrap: nowrap; /* Prevent wrapping to maintain two columns */
-        width: 100%;
-        max-width: 650px; /* Container width */
+        flex-wrap: wrap;
+        margin-left: -2rem;
+        max-width: 1100px; /* Container width */
         padding: 10px;
         box-sizing: border-box;
-      }
+    }
+    
+    .services-section,
+    .computation-section {
       
-      .services-section{
-        padding-left: 1rem;
+        padding: 20px 20px;
         background: #fff;
         border: 1px solid #ddd;
         border-radius: 8px;
-        padding: 30px 20px; /* Padding for consistency */
         width: 100%;
-        max-width: 900px; /* Fixed size to maintain equal columns */
+        
         box-sizing: border-box;
-        text-align: left;
-        margin: 0; /* Removed margin to align perfectly in two columns */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for emphasis */
+    }
+    
+    .services-section {
+        max-width: 650px; /* Width for services section */
+    }
+    
+    .computation-section {
+        max-width: 550px; /* Width for computation section */
+        
+    }
 
-      }
+    .computation-section li{
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.3rem;
+  }
 
-
-      .computation-section {
-        padding-left: 5rem;
-        background: #fff;
-        border: 1px solid #ddd;
-        border-radius: 8px;
-        padding: 30px 20px; /* Padding for consistency */
-        width: 100%;
-        max-width: 550px; /* Fixed size to maintain equal columns */
-        box-sizing: border-box;
-        text-align: left;
-        margin: 0; /* Removed margin to align perfectly in two columns */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for emphasis */
-      }
-      
-      .services-section h4,
-      .computation-section h3 {
-        font-size: 1.5rem;
+  .computation-section h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    color: #20006b;
+}
+    
+    .services-section h4,
+    .computation-section h3 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.8rem;
         margin-bottom: 20px;
         color: #333;
-      }
-      
-      .category h5 {
+    }
+    
+    .category h5 {
+       font-family: 'Poppins', sans-serif;
         font-size: 1.2rem;
         margin-bottom: 15px;
-        color: #555;
-      }
-      
-      .service-item {
+        color: #1d0555;
+    }
+
+    .category span {
+      font-family: 'Poppins', sans-serif;
+       font-size: 1.0rem;
+       margin-bottom: 15px;
+       color: #1d0555;
+   }
+    
+    .service-item {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-bottom: 15px;
-      }
-      
-      .service-item .submain {
-        flex: 1; /* Ensure the text takes available space */
-        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+    
+    .service-item .submain {
+        flex: 1;
+        font-size: 1.2rem;
         color: #333;
-        text-align: left; /* Align text to the left */
-        max-width: 1000px; /* Set a fixed width for text alignment */
-        white-space: nowrap; /* Prevent text from wrapping */
-        overflow: hidden; /* Hide overflow if text is too long */
-        text-overflow: ellipsis; /* Add ellipsis for long text */
-      }
-      
-      button {
+        text-align: left;
+        max-width: 1000px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    button {
         background: #4caf50;
         color: white;
         border: none;
@@ -267,74 +275,55 @@
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        height: 36px; /* Slightly smaller buttons */
-        width: 36px; /* Ensure square buttons */
-      }
-      
-      button:hover {
-        background: #45a049;
-      }
-      
-      
-      .service-item .quantity {
-        font-size: 1.2rem;
-        font-weight: bold;
-        width: 150px;  /* Reduced width for tighter spacing */
-        text-align: center;
-        margin: 0 2px;  /* Reduced margin between buttons and quantity */
-        display: inline-block; /* Ensures it stays in line with buttons */
+        height: 36px;
+        width: 36px;
     }
     
+    button:hover {
+        background: #45a049;
+    }
     
-      
-      .total {
-        font-size: 2rem;
+    .service-item .quantity {
+        font-size: 1.2rem;
+        font-weight: bold;
+        width: 150px;
+        text-align: center;
+        margin: 0 2px;
+        display: inline-block;
+    }
+    
+    .total {
+        font-size: 9.0rem;
         font-weight: bold;
         color: #4caf50;
         margin-bottom: 20px;
-        text-align: center; /* Center aligned for clarity */
-      }
-      
-      ul {
+        text-align: center;
+    }
+    
+    ul {
         list-style: none;
         padding: 0;
-      }
-      
-      ul li {
+    }
+    
+    ul li {
         margin-bottom: 10px;
         font-size: 1rem;
-      }
-      
-      /* Media Queries for Responsiveness */
-      @media (max-width: 1200px) {
+    }
+    
+    @media (max-width: 1200px) {
         .pricing-container {
-          gap: 15px;
-          padding: 15px;
+            gap: 15px;
+            padding: 15px;
         }
-      
+    
         .services-section,
         .computation-section {
-          max-width: 500px;
-          padding: 30px;
+            max-width: 100%; /* Full width on smaller screens */
+            padding: 30px;
         }
-      }
+    }
+    
       
-      @media (max-width: 768px) {
-        .pricing-container {
-          flex-direction: column;
-          gap: 20px;
-        }
-      
-        .services-section,
-        .computation-section {
-          max-width: 100%;
-          padding: 20px;
-        }
-      
-        .total {
-          font-size: 1.8rem;
-        }
-      }
       
       
       .footer {
