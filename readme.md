@@ -4,23 +4,25 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/yram-nna12/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/logotech.png" alt="" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">First Activity: TechVerse Innovations: Single-Page Website Development
+
+</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  This project involves creating a modern and visually appealing single-page website for TechVerse Innovations, a fictional cutting-edge technology company specializing in innovative solutions for businesses and individuals. The website will feature a clean and professional layout optimized for a resolution of 1920x1080, ensuring seamless viewing on desktop devices.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=yram-nna12/AWD-Activity-1-2)
 
 [![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
 
@@ -59,7 +61,7 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+Here we have our first Activity focusing on how we design a client's website. We thoroughly experimented on different design aspects to make our elements harmonize.
 
 Guiding Question:
 - What is the project
@@ -70,9 +72,12 @@ Guiding Question:
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- Responsive Website
+- Before Effect
+- After Effect
+- Hover Effect
+- Pricing Calcutor Feature
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -119,4 +124,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Canva | Utilized for creating background | [Link](https://www.canva.com/) |

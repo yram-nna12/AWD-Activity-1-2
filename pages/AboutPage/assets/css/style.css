@@ -146,6 +146,7 @@
     }
 
     .Abtrow .contentWrapper span.textWrapper{
+      font-family: 'Poppins', sans-serif;
       display: block;
       font-size: 20px;
       text-transform: capitalize;
@@ -164,6 +165,7 @@
     }
 
     .Abtrow .contentWrapper h2{
+      font-family: 'Poppins', sans-serif;
       font-size: 80px;
       font-weight: 700;
       color: rgb(27, 14, 30); ;
@@ -174,6 +176,7 @@
     }
 
     .Abtrow .contentWrapper p{
+      font-family: 'Poppins', sans-serif;
       font-size: 16px;
       color: white;
       line-height: 25px;
@@ -198,6 +201,7 @@
 }
 
 .section h2 {
+  font-family: 'Poppins', sans-serif;
   font-size: 60px;
   margin-bottom: 15px;
 }
@@ -227,6 +231,7 @@
 /*How We Work Section*/
 
 .How-we-work h2{
+  font-family: 'Poppins', sans-serif;
   font-size: 80px;
   font-weight: 700;
   color: rgb(27, 14, 30); ;
@@ -238,19 +243,24 @@
 }
 
 .How-we-work p{
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   color: white;
   line-height: 25px;
-  padding-bottom: 25px
+  padding-bottom: 25px;
+  margin-bottom: 3rem;
 }
 
+.How-we-work .mainTH{
+  margin-bottom: -2rem;
+}
 
 .container3 {
   background-image: url("../img/hwwork-section.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding: 40px 40px;
+  padding: 40px 80px;
 }
 
 .container3 .row {
@@ -258,6 +268,7 @@
   margin-bottom: 40px;
   margin-top: -20px;
 }
+
 
 .container3 .column {
   flex: 1;
@@ -289,16 +300,18 @@
 }
 
 .container3 .card h3 {
-  font-size: 1.5em;
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
   margin-bottom: 10px;
-  background: linear-gradient(to left, #8ca2ff, #dbeaff);
+  background: #280c50;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .container3 .card p {
+  font-family: 'Poppins', sans-serif;
   line-height: 1.6em;
-  color: #ffffff;
+  color: #411f70;
 }
 
 .container3 .card:hover {
