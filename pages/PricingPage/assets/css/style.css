@@ -30,6 +30,15 @@
     background-position: center;
 }
 
+.hero1 .subT{
+  font-size: 20px;
+  margin-top: -1rem;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to left, #8ca2ff, #dbeaff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
 .navigationBar {
     display: flex;
     width: 100vw;
@@ -127,44 +136,7 @@
     
     }
 
-    .container2 {
-        background-color: #000000;
-        color: #ffffff;
-        margin-bottom: -40px;
-      }
-      
-      .container2 .roww {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        color: #000000;
-        font-family: "Poppins", sans-serif;
-        letter-spacing: -0.6px;
-      }
-      
-      .column {
-        flex: 1;
-      }
-      .card-content h3{
-       font-size: 2rem;
-       font-family: "Poppins", sans-serif;
-      }
-      
-      .card {
-        background: linear-gradient(390deg, #a9eeff, #9fb1ff, #401758);
-          padding: 50px;
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-          transition: transform 0.3s ease, box-shadow 0.3s ease;
-          display: flex;
-          flex-direction: row-reverse;
-          font-family: "Poppins", sans-serif;
-        }
-      
-      .card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-      }
-      
+    
      
       .mainprice-section {
         background-image: url("../img/pricing-section.png");
@@ -187,7 +159,7 @@
         margin-left: -2rem;
         max-width: 1800px; /* Container width */
         padding: 100px;
-        margin-top: 15rem;
+        margin-top: -10rem;
         box-sizing: border-box;
     }
     
@@ -195,7 +167,7 @@
     .computation-section {
       
         padding: 20px 18px;
-        background: linear-gradient(390deg, #a9eeff, #9fb1ff, #401758);
+        background: linear-gradient(220deg, #a9eeff, #9fb1ff);
         border-radius: 8px;
         width: 100%;
         box-sizing: border-box;
@@ -222,19 +194,27 @@
     color: #20006b;
 }
     
-    .services-section h4,
+    .services-section h4  {
+      font-family: 'Poppins', sans-serif;
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+      letter-spacing: -1.2px;
+      color: #000000;
+  }
+
     .computation-section h3 {
         font-family: 'Poppins', sans-serif;
         font-size: 2.2rem;
         margin-bottom: 10px;
         letter-spacing: -1.2px;
-        color: #100516;
-    }
-    
+        color: #000000;
+        margin-left: 2px;
+        }
+
     .category h5 {
        font-family: 'Poppins', sans-serif;
-        font-size: 1.2rem;
-        margin-bottom: 15px;
+        font-size: 1.6rem;
+        margin-bottom: 10px;
         color: #1d0555;
     }
 
@@ -262,6 +242,14 @@
         overflow: hidden;
         text-overflow: ellipsis;
     }
+
+    .service-item .minus-btn:hover {
+      background: #cd5959;
+    }
+
+    .service-item .plus-btn:hover {
+      background: #59cd5b;
+    }
     
     button {
         background: #401758;;
@@ -278,10 +266,10 @@
         height: 36px;
         width: 36px;
     }
-    
-    button:hover {
+
+   /* button:hover {
         background: #59cd5f;
-    }
+    }*/
     
     .service-item .quantity {
         font-size: 1.2rem;
@@ -292,11 +280,13 @@
         display: inline-block;
     }
     
+   
+
     .total {
-        font-size: 5rem;
+        font-size: 4.5rem;
         font-weight: bold;
         color: #000000;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         text-align: center;
     }
     
